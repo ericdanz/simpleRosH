@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "robot_beagle")
+set(robot_beagle_MAINTAINER "ubuntu <ubuntu@todo.todo>")
+set(robot_beagle_DEPRECATED "")
+set(robot_beagle_VERSION "0.0.0")
+set(robot_beagle_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "message_generation")
+set(robot_beagle_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "std_msgs")
+set(robot_beagle_BUILDTOOL_DEPENDS "catkin")
