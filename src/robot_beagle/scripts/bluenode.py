@@ -43,7 +43,7 @@ def blueNode():
 				except:
 					pass
 			locPub.publish(locTwist)
-			rospy.loginfo("Location sent: Forward: " + locTwist.linear.x + " Turn: " + locTwist.angular.z)			
+			rospy.loginfo("Location sent: Forward: {}, Turn: {}".format(locTwist.linear.x,locTwist.angular.z))			
 
         	if (rawdata == 'end'):
                 	boo = 0
