@@ -1,8 +1,8 @@
-prefix=/home/ubuntu/GitHub/simpleRosH/install
+prefix=/home/ubeagle/GitHub/simpleRosH/install
 
 Name: robot_beagle
 Description: Description of robot_beagle
 Version: 0.0.0
-Cflags: -I/home/ubuntu/GitHub/simpleRosH/install/include
-Libs: -L/home/ubuntu/GitHub/simpleRosH/install/lib -lrobot_beagle
+Cflags: -I/home/ubeagle/GitHub/simpleRosH/install/include
+Libs: -L/home/ubeagle/GitHub/simpleRosH/install/lib -lrobot_beagle
 Requires: roscpp rospy std_msgs message_runtime

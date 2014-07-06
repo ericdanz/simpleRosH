@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/gtest
-# Build directory: /home/ubuntu/GitHub/simpleRosH/build/gtest
+# Build directory: /home/ubeagle/GitHub/simpleRosH/build/gtest
 # 
 # This file includes the relevent testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

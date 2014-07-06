@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/ubuntu/GitHub/simpleRosH/build"
+export PWD="/home/ubeagle/GitHub/simpleRosH/build"

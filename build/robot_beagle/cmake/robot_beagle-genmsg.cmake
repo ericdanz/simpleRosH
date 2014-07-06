@@ -2,7 +2,7 @@
 
 message(STATUS "robot_beagle: 5 messages, 0 services")
 
-set(MSG_I_FLAGS "-Irobot_beagle:/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg;-Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Irobot_beagle:/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg;-Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -18,31 +18,31 @@ add_custom_target(robot_beagle_generate_messages ALL)
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Input.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Input.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_cpp(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/BootResponse.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/BootResponse.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_cpp(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Request.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Request.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_cpp(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Output.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Output.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_cpp(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Error.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Error.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robot_beagle
@@ -71,31 +71,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS robot_beagle_generate_messages_cpp)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Input.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Input.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_lisp(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/BootResponse.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/BootResponse.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_lisp(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Request.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Request.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_lisp(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Output.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Output.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_lisp(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Error.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Error.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robot_beagle
@@ -124,31 +124,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS robot_beagle_generate_messages_lisp
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Input.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Input.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_py(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/BootResponse.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/BootResponse.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_py(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Request.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Request.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_py(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Output.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Output.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robot_beagle
 )
 _generate_msg_py(robot_beagle
-  "/home/ubuntu/GitHub/simpleRosH/src/robot_beagle/msg/Error.msg"
+  "/home/ubeagle/GitHub/simpleRosH/src/robot_beagle/msg/Error.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robot_beagle
