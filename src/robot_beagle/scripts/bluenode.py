@@ -6,9 +6,7 @@ from geometry_msgs.msg import Twist
 import rospy
 import sys, time
 
-muuid = "8ce255c0-200a-11e0-ac64-0800200c9a66"
-sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
-blueconn.findservice(muuid,sock)
+
 
 
 locPub = rospy.Publisher('cmd_vel', Twist, queue_size=2, latch=True)
@@ -21,8 +19,10 @@ def blueNode():
  	locPub = rospy.Publisher('cmd_vel', Twist, queue_size=2, latch=True)
 	locTwist = Twist()
 	#locPub.publish(locTwist)
-
-	blueconn.findservice(muuid,sock)
+  muuid = "8ce255c0-200a-11e0-ac64-0800200c9a66"
+  sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
+  blueconn.findservice(muuid,sock)
+	
 	notconnected = 1
 	while(notconnected):
 		try:
