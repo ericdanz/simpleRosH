@@ -18,11 +18,12 @@ def myRound(x, base=10):
 def blueNode():
  	locPub = rospy.Publisher('cmd_vel', Twist, queue_size=2, latch=True)
 	locTwist = Twist()
-	#locPub.publish(locTwist)
+  #locPub.publish(locTwist)
+
   muuid = "8ce255c0-200a-11e0-ac64-0800200c9a66"
   sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
   blueconn.findservice(muuid,sock)
-	
+
 	notconnected = 1
 	while(notconnected):
 		try:
