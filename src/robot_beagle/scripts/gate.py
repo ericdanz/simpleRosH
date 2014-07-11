@@ -15,7 +15,7 @@ class Gate:
 		self.number = gnumber
 		self.module = Module()
 		#is gnumber going to be port number as well?
-		port = '/dev/ttyACM{}'.format(self.number)
+		port = '/dev/ttyO{}'.format(self.number)
 		self.serPer = serial.Serial(port, baudrate=57600, timeout=.4)
 
 
@@ -64,6 +64,6 @@ class Gate:
 
 if __name__ == '__main__':
 	rospy.init_node('gate', anonymous=True)
-	gate = Gate(0)
+	gate = Gate(5)
 	rospy.loginfo("Gate Node Started")
 	rospy.spin()
